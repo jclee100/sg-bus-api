@@ -7,8 +7,12 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/komirad/sg-bus-api.svg?style=flat-square)](https://scrutinizer-ci.com/g/komirad/sg-bus-api)
 [![Total Downloads](https://img.shields.io/packagist/dt/komirad/sg-bus-api.svg?style=flat-square)](https://packagist.org/packages/komirad/sg-bus-api)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+A PHP library for checking on Singapore public bus service information and arrival timings. Uses LTA's API.
+
+## Introduction
+
+[Request API key](https://www.mytransport.sg/content/mytransport/home/dataMall.html) from LTA
+For documentation of API response see [Documentation of underlying API from LTA](https://www.mytransport.sg/content/dam/mytransport/DataMall_StaticData/LTA_DataMall_API_User_Guide.pdf)
 
 ## Install
 
