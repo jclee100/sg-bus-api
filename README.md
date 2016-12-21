@@ -1,4 +1,4 @@
-# League Skeleton
+# Sg Bus API
 
 [![Latest Version](https://img.shields.io/github/release/komirad/sg-bus-api.svg?style=flat-square)](https://github.com/komirad/sg-bus-api/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
@@ -24,6 +24,7 @@ $ composer require komirad/sg-bus-api
 $busApi = new Komirad\SgBus\SgBus(<your account key>);
 
 /**
+ * Bus arrival times
  * @param $busStopId
  * @param null $serviceNumber Optional.
  * @param bool|false $SST Optional. return result in  Singapore standard time
@@ -31,7 +32,7 @@ $busApi = new Komirad\SgBus\SgBus(<your account key>);
  */
 $busApi::BusArrival()->handle($busStopId, $serviceNumber, $SST);
 
-// Paginated APIs
+// Paginated APIs 50 results each page
 $busApi::BusStops()->next();
 $busApi::BusRoutes()->next();
 $busApi::BusServices()->next();
