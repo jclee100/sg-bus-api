@@ -42,4 +42,12 @@ abstract class PaginatedApi extends BaseApi
         if(!$this->hasNext) return null;
         return $this->handle(++$this->page);
     }
+
+    public function all() {
+        $result = $this->next();
+        while($this->hasNext) {
+            $result->value = array_merge($result->value, $this->next()->value);
+        }
+        return $result;
+    }
 }

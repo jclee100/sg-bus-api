@@ -7,7 +7,6 @@ $client = new \Komirad\SgBus\SgBus('xbEPVO6WS3CoUc4Ph6mSWQ==');
 //$result = $client::BusServices();
 //$result = $client::BusRoutes();
 $busStopsClient = $client::BusStops();
-$result = $busStopsClient->next();
-$result = $busStopsClient->next();
+$result = $busStopsClient->all();
 
 var_dump($result);
