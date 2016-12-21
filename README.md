@@ -50,7 +50,7 @@ Please see [CONTRIBUTING](https://github.com/komirad/sg-bus-api/blob/master/CONT
 
 ## Credits
 
-- [:author_name](https://github.com/komirad)
+- [JC Lee](https://github.com/komirad)
 - [All Contributors](https://github.com/komirad/sg-bus-api/contributors)
 
 ## License
