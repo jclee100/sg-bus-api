@@ -34,4 +34,4 @@ composer.lock
 docs
 vendor
 
-index.php
+/index.php
